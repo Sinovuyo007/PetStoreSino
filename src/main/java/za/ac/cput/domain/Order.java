@@ -25,7 +25,7 @@ public class Order{
 
 
 
-    private Order(){}
+    protected Order(){}
 
     private Order(Builder builder){
         this.orderID = builder.orderID;

@@ -13,7 +13,7 @@ public class OrderItem{
     private int productID;
     private double price;
     private  int quantity;
-    private OrderItem(){}
+    protected OrderItem(){}
 
 
 
